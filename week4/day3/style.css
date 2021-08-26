@@ -1,0 +1,34 @@
+body {
+    font-family: 'Slabo 27px', serif;
+    
+  }
+
+h1 {
+  color: rgb(122, 122, 218);
+  background-color: lightblue;
+  background-size: 20;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  color: rgb(41, 57, 199);
+  background-color: rgb(197, 197, 255);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 15px ;
+  font-family: inherit;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+div {
+  background: rgba(0, 128, 0, 0.3) /* Green background with 30% opacity */
+}

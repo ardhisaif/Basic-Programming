@@ -1,0 +1,30 @@
+{
+  "name": "hacktiv8-phase0-slc3",
+  "version": "1.0.0",
+  "description": "Hacktiv8 Phase 0 Live Code 3 Simulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ideaspaper/hacktiv8-phase0-slc3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ideaspaper/hacktiv8-phase0-slc3/issues"
+  },
+  "homepage": "https://github.com/ideaspaper/hacktiv8-phase0-slc3#readme",
+  "jest": {
+    "reporters": [
+      "default",
+      "hacktiv8-reporter"
+    ]
+  },
+  "dependencies": {
+    "hacktiv8-reporter": "1.1.3",
+    "jest": "26.4.2"
+  }
+}
